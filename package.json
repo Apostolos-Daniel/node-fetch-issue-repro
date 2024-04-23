@@ -1,0 +1,19 @@
+{
+  "name": "fetch-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "run:no-fetch": "node --no-experimental-fetch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "dd-trace": "^5.11.0"
+  }
+}
